@@ -97,3 +97,12 @@ dialog {
 .bolded-text {
   font-weight: bold;
 }
+
+.project-card {
+  text-align: left;
+  padding: 1.5rem 1rem;
+}
+
+.project-card h4 {
+  margin: 1rem 0 0.25rem;
+}
