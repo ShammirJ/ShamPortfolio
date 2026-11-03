@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardware Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">&larr; Back to portfolio</a>
+    </header>
+    <main>
+      <h1>Hardware Projects</h1>
+      <div class="cards">
+        <div class="card project-card">
+          <h3>Web-Controlled Stepper Motor (Zybo Z7-10)</h3>
+          <p>Fixed and extended a stepper motor controller running FreeRTOS and the lwIP TCP/IP stack on a Zybo Z7-10 board. Built an opto-isolated driver circuit using an LTV-847, served motor parameters over a lightweight HTTP/JSON web server with input validation, added stepping modes, LED status feedback and an emergency stop, and controlled it remotely from a Python script.</p>
+          <h4>Skills</h4>
+          <ul>
+            <li>FreeRTOS and embedded C</li>
+            <li>TCP/IP networking with lwIP, HTTP and JSON</li>
+            <li>Opto-isolated circuit design and breadboarding</li>
+            <li>Stepper motor control</li>
+            <li>Input validation and safety features</li>
+          </ul>
+        </div>
+        <div class="card project-card">
+          <h3>32-bit RISC-V CPU (Controller and Datapath)</h3>
+          <p>Designed and verified single-cycle and multi-cycle 32-bit RISC-V CPUs. Completed the core RTL (immediate extend, data memory, register file, ALU), added BEQ branching, built the multi-cycle control FSM with SLL, SRL, ADDI and a custom HALT instruction, and validated it with a custom assembly program in simulation.</p>
+          <h4>Skills</h4>
+          <ul>
+            <li>RTL design and digital logic</li>
+            <li>CPU microarchitecture and FSM controller design</li>
+            <li>RISC-V instruction set and assembly</li>
+            <li>Simulation and waveform verification</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
